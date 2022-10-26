@@ -1,0 +1,11 @@
+.background {
+  background: url('../../images/landingpage.jpg') no-repeat center center fixed;
+  height: 100vh;
+}
+
+.title {
+  color: white;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}

@@ -1,0 +1,33 @@
+.container {
+  padding: 10px;
+  border-radius: 15px;
+  border: 6px solid black;
+}
+
+.informationContainer {
+  background-color: rgba(0, 0, 0, 0.257);
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.pokemonTitle {
+  font-size: 2.1rem;
+  padding: 10px;
+}
+
+.pokemonTypes {
+  margin: 10px;
+}
+
+.typesPill {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.pokeImage {
+  height: 200px;
+  width: 200px;
+}

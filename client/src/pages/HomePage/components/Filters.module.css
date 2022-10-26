@@ -1,0 +1,17 @@
+.filtersContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+
+@media only screen 
+   and (max-width : 470px) {
+   .filtersContainer {
+    flex-direction: column;
+   }
+}
+
+.selectContainer {
+    border-radius: 10px;
+    padding: 10px;
+}

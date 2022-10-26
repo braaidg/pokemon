@@ -1,0 +1,17 @@
+.paginationContainer {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationItem {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.paginationButton {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}

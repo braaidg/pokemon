@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+}
+
+.activeFilter {
+font-size: 1rem;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  grid-auto-flow: row;
+  margin: 30px 30px;
+}
+
+@media only screen 
+and (min-width : 540px) {
+.cardsContainer {
+ grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen 
+and (min-width : 760px) {
+.cardsContainer {
+ grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media only screen 
+and (min-width : 1210px) {
+.cardsContainer {
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+.notFound {
+color: white;
+font-size: 3rem;
+margin: 50px;
+justify-content: center;
+}

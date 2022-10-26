@@ -1,0 +1,9 @@
+.navBarContainer {
+  background-color: black;
+  color: white;
+}
+
+.navBarTitle { 
+  font-family: "ArcadeClassic";
+  font-size: 2rem;
+}

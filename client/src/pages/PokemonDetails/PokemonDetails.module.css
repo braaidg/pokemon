@@ -1,0 +1,66 @@
+.container {
+    max-width: 1024px;
+    display: flex;
+    margin: 75px auto 50px auto;
+    border: 6px solid black;
+    border-radius: 20px;
+}
+
+.cardDetails {
+    border-left: 6px solid black;
+    /* width: 50%; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pokeImg {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.typesContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .pokeImg {
+        width: 50%;
+    }
+    .cardDetails {
+        border: none;
+    }
+}
+
+.notFound { 
+    font-size: 2rem;
+    word-spacing: 5px;
+    background-color: white;
+    border: 6px solid black;
+    max-width: 600px;
+    margin: 50px auto 25px auto;
+    padding: 50px;
+}
+
+.pokeBall{
+    width: 50px;
+    height: 50px;
+}
+
+.statsContainer {
+    display: flex;
+}
+
+.statNames {
+    background-color: gray;
+    font-size: 2rem;
+}

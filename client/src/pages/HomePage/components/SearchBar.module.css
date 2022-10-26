@@ -1,0 +1,11 @@
+.container {
+    margin: 2rem  auto;
+}
+
+.searchBox {
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #dfdfdf;
+    margin-bottom: 1rem;
+}
